@@ -371,3 +371,120 @@ header{
     background-color: #E90024;
 }
 /* Pricing css ends here */
+
+/* Rating css starts here */
+#rating{
+    margin-bottom: 150px;
+}
+.rating-name h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4B4B4B;
+}
+.rating-image{
+    text-align: right;
+}
+.rating-dots{
+    padding-bottom: 10px;
+}
+.rating-stars i{
+    margin-left: 5px;
+    color: #FFA723;
+}
+.rating-stars i:first-child{
+    margin-left: 0!important;
+}
+.rating-text h4{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #787878;
+}
+.rating-text {
+    padding: 36px 27px;
+    background-color: #F4F4F4;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.rating-icons img{
+    margin-right: 15px;
+}
+.rating-item{
+    padding: 41px 41px 30px 41px;
+    border-radius: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+/* Rating css ends here */
+
+/* FAQ css starts here */
+#faq{
+    margin-bottom: 150px;
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url('../images/minus.png');
+}
+.accordion-button::after {
+    background-image: url('../images/plus.png');
+}
+.accordion-item{
+    margin-bottom: 20px;
+}
+.accordion-item {
+    color: var(--bs-accordion-color);
+    background-color: var(--bs-accordion-bg);
+    border: none!important; 
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px!important;
+    border-radius: 20px;
+}
+.accordion-button{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E1E1E;
+    padding: 35px 32px 35px 30px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px!important;
+    
+}
+
+.accordion-button:not(.collapsed) {
+    color: #E90024;
+    background-color: #ffff;
+    box-shadow: none;
+    border: none;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border: 1px solid #E8E8E8;
+    outline: 0;
+    box-shadow: none;
+}
+.accordion-body{
+    padding: 0 30px;
+}
+.accordion-body p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #787878;
+    padding-bottom: 38px;
+}
+.accordion-button:focus{
+    outline: none!important;
+    border: none!important;
+}
+.accordion-button:not(.collapsed){
+    padding: 35px 32px 5px 30px;
+}
+/* FAQ css ends here */
