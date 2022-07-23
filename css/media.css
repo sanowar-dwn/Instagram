@@ -1,0 +1,265 @@
+/* Large devices (portrait phones, less than 1400px) */
+@media(min-width:1200px) and (max-width:1399.98px){
+    .banner-right img{
+        margin-right: 0;
+    }
+    .banner-right::after {
+        right: 5%;
+    }
+    .about-item{
+    height: 459px;
+    }
+    .reason-shape {
+        right: 0%;
+    }
+}
+/* Large devices (portrait phones, less than 1200px) */
+@media(min-width:992px) and (max-width:1199.98px){
+    .nav-item {
+        padding-left: 35px;
+    }
+    .banner-text h1 {
+        font-size: 43px;
+        line-height: 40px;
+    }
+    .banner-right img{
+        margin-right: 0;
+    }
+    .banner-right::after {
+        right: 5%;
+    }
+    .reason-shape {
+        right: 0%;
+    }
+    #banner {
+        margin-bottom: 100px;
+    }
+    .counter-wrapper {
+        padding: 80px 94px 76px 95px;
+    }
+    .counter-header h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .counter-number, .counter-value {
+        font-size: 40px;
+        line-height: 55px;
+        margin-bottom: 0;
+    }
+    .counter-item-text{
+        margin-bottom: 0;
+    }
+    .about-item{
+        height: 459px;
+    }
+    .reason-item {
+        padding: 55px 40px 84px 40px;
+    }
+    .reason-item p {
+        line-height: 23px;
+    }
+    .pricing-item {
+        width: 307px;
+    }
+    .pricing-point-header h2 {
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+}
+/* Mediuam devices (portrait phones, less than 992px) */
+@media(min-width:768px) and (max-width:991.98px){
+    .banner-comment-header{
+        padding-left: 20px;
+    }
+    .banner-right img{
+        margin-right: 0;
+    }
+    .banner-text h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .banner-text-secondary {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .banner-right::after {
+        top: 18%;
+        right: 3%;
+    }
+    .counter-wrapper {
+        padding: 53px 40px 51px 40px;
+    }
+    .counter-header h2 {
+        font-size: 33px;
+        line-height: 40px;
+    }
+    .counter-number, .counter-value {
+        font-size: 35px;
+        line-height: 55px;
+        margin-bottom: 0;
+    }
+    .counter-item-text{
+        margin-bottom: 0;
+    }
+    .reason-shape {
+        position: absolute;
+        top: -3%;
+        right: 0%;
+        z-index: -9;
+    }
+    .rating-section-shape {
+        position: absolute;
+        top: 7%;
+        left: 2%;
+    }
+    .footer-btn {
+        margin-right: -35px;
+    }
+    .section-header h1 {
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 54px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #1E1E1E;
+    }
+
+}
+/* Small devices (portrait phones, less than 768px) */
+@media(min-width:576px) and (max-width:767.98px){
+
+    .banner-comment-box {
+        left: -4%;
+    }
+    .banner-right::after {
+        content: '';
+    }
+    #banner{
+        margin-bottom: 50px;
+    }
+    .counter-wrapper {
+        padding: 40px;
+    }
+    .counter-header h2{
+        text-align: center;
+    }
+    .counter-number, .counter-value {
+        font-size: 35px;
+    }
+    .counter-item-text{
+        margin-bottom: 0;
+    }
+    .about-item h4{
+        text-align: center;
+    }
+    .about-item p{
+        text-align: center;
+    }
+    .reason-shape {
+        top: -3%;
+        right: 3%;
+    }
+    .rating-section-shape{
+        display: none;
+    }
+    .item-wrapper{
+        margin-top: 20px;
+    }
+    .section-header h1 {
+        font-size: 38px;
+    }
+}
+/*XS Device */
+@media(max-width:575px){
+    .banner-text h1 {
+        color: #1E1E1E;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .banner-btn {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .banner-comment-box {
+        left: -4%;
+        bottom: -22%;
+    }
+    #counter{
+        margin-top: 150px;
+    }
+    .counter-shape{
+        display: none;
+    }
+    .banner-text-secondary {
+        font-size: 40px;
+    }
+    .banner-text p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        color: #787878;
+        padding: 0;
+        padding-bottom: 15px!important;
+    }
+    .banner-comment-box {
+        left: -4%;
+    }
+    .banner-right::after {
+        content: '';
+    }
+    .reason-item{
+        text-align: center;
+    }
+    .reason-item h4{
+        text-align: center;
+    }
+    .reason-item p{
+        text-align: center;
+    }
+    .counter-wrapper {
+        padding: 40px;
+    }
+    .counter-header h2{
+        text-align: center;
+    }
+    .counter-number, .counter-value {
+        font-size: 35px;
+    }
+    .counter-item-text{
+        margin-bottom: 0;
+    }
+    .about-item h4{
+        text-align: center;
+    }
+    .about-item p{
+        text-align: center;
+    }
+    .reason-shape {
+        top: -3%;
+        right: 3%;
+    }
+    .rating-section-shape{
+        display: none;
+    }
+    .item-wrapper{
+        margin-top: 20px;
+    }
+    .section-header h1 {
+        font-size: 29px;
+    }
+    .footer-first{
+        text-align: center;
+    }
+    .footer-first p{
+        text-align: center;
+    }
+    .footer-icons{
+        justify-content: center;
+    }
+    .footer-header, .footer-text{
+        text-align: center;
+    }
+}
+

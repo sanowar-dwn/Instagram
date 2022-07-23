@@ -14,8 +14,9 @@ ul,ol{
 h1,h2,h3,h4,h5,h6,p {
     line-height: 0.8;
 }
-body{
-    font-family: 'Inter', sans-serif;
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 .section-head-wrapper{
     margin: 0 auto;
@@ -289,9 +290,6 @@ header{
 #pricing{
     margin-bottom: 150px;
 }
-.discount-tag{
-    padding-left: 10px;
-}
 .discount-tag h4{
     font-size: 20px;
     font-weight: 600;
@@ -370,11 +368,16 @@ header{
     color: #ffff;
     background-color: #E90024;
 }
+.discount-tag{
+    display: flex;
+    justify-content: center;
+}
 /* Pricing css ends here */
 
 /* Rating css starts here */
 #rating{
     margin-bottom: 150px;
+    position: relative;
 }
 .rating-name h4{
     font-size: 20px;
@@ -421,6 +424,11 @@ header{
     border-radius: 30px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+.rating-section-shape {
+    position: absolute;
+    top: 10%;
+    left: 7%;
+}
 /* Rating css ends here */
 
 /* FAQ css starts here */
@@ -453,7 +461,6 @@ header{
     padding: 35px 32px 35px 30px;
     border: 1px solid #E8E8E8;
     border-radius: 10px!important;
-    
 }
 
 .accordion-button:not(.collapsed) {
@@ -488,3 +495,74 @@ header{
     padding: 35px 32px 5px 30px;
 }
 /* FAQ css ends here */
+
+/* Footer css starts here */
+footer{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: #F4F4F4;
+}
+.footer-first img{
+    padding-bottom: 30px;
+}
+.footer-first p{
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #787878;
+}
+.footer-icons a:last-child{
+    padding-left: 11px;
+}
+.footer-header{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E1E1E;
+    padding-bottom: 18px;
+}
+.footer-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #787878;
+}
+.footer-form::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A5A5A5;
+}
+.footer-form{
+    padding: 15px 15px;
+    border:none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.footer-btn{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffff;
+    padding: 15px 17px;
+    background-color: #E90024;
+    border-radius: 10px;
+    border: none;
+    margin-left: -10px;
+}
+.footer-link-wrapper{
+    display: flex;
+    justify-content: center;
+}
+/* Footer css ends here */
