@@ -1,11 +1,5 @@
 /* Large devices (portrait phones, less than 1400px) */
 @media(min-width:1200px) and (max-width:1399.98px){
-    .banner-right img{
-        margin-right: 0;
-    }
-    .banner-right::after {
-        right: 5%;
-    }
     .about-item{
     height: 459px;
     }
@@ -123,11 +117,16 @@
         text-align: center;
         color: #1E1E1E;
     }
+    .item-wrapper{
+        margin-top: 20px;
+    }
 
 }
 /* Small devices (portrait phones, less than 768px) */
 @media(min-width:576px) and (max-width:767.98px){
-
+    .banner-right-text {
+        padding: 15px 20px 15px 20px;
+    }
     .banner-comment-box {
         left: -4%;
     }
@@ -149,10 +148,16 @@
     .counter-item-text{
         margin-bottom: 0;
     }
+    .reason-item h4{
+        text-align: center;
+    }
     .about-item h4{
         text-align: center;
     }
     .about-item p{
+        text-align: center;
+    }
+    .reason-item p{
         text-align: center;
     }
     .reason-shape {
@@ -168,9 +173,18 @@
     .section-header h1 {
         font-size: 38px;
     }
+    .about-item{
+        text-align: center;
+    }
+    .reason-item{
+        text-align: center;
+    }
 }
 /*XS Device */
 @media(max-width:575px){
+    .banner-right-text {
+        padding: 20px 40px 20px 40px;
+    }
     .banner-text h1 {
         color: #1E1E1E;
         font-size: 40px;
@@ -223,9 +237,13 @@
     }
     .counter-header h2{
         text-align: center;
+        padding-bottom: 15px;
     }
     .counter-number, .counter-value {
         font-size: 35px;
+    }
+    .about-item{
+        text-align: center;
     }
     .counter-item-text{
         margin-bottom: 0;
@@ -246,6 +264,9 @@
     .item-wrapper{
         margin-top: 20px;
     }
+    .pricing-item {
+    padding: 65px 70px;
+    }
     .section-header h1 {
         font-size: 29px;
     }
@@ -260,6 +281,14 @@
     }
     .footer-header, .footer-text{
         text-align: center;
+    }
+    .footer-subscribe{
+        margin-top: 50px;
+    }
+    footer {
+        padding-top: 100px;
+        padding-bottom: 80px;
+        background-color: #F4F4F4;
     }
 }
 

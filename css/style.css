@@ -212,7 +212,7 @@ header{
 .about-item{
     padding: 88px 40px 84px 40px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 .about-item h4{
     padding-top: 32px;
@@ -248,7 +248,7 @@ header{
 .reason-item{
     padding: 88px 40px 84px 40px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    border-radius: 50px;
+    border-radius: 30px;
     height: 505px!important;
     background-color: #ffff;
 }
@@ -354,7 +354,7 @@ header{
 }
 .pricing-item{
     padding: 65px 55px;
-    border-radius: 50px;
+    border-radius: 30px;
     height: 637px;
     width: 424px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -426,7 +426,7 @@ header{
 }
 .rating-section-shape {
     position: absolute;
-    top: 10%;
+    top: 6%;
     left: 7%;
 }
 /* Rating css ends here */
