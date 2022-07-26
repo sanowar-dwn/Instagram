@@ -62,6 +62,23 @@
 }
 /* Mediuam devices (portrait phones, less than 992px) */
 @media(min-width:768px) and (max-width:991.98px){
+    .nav-link{
+        text-align: center;
+        color: black;
+        padding-top: 15px;
+    }
+    .navbar-nav{
+        padding-bottom: 20px;
+    }
+    .navbar-collapse{
+        padding-bottom: 25px;
+        background-color: whitesmoke;
+    }
+    .nav-right{
+        padding-top: 12px;
+        display: flex;
+        justify-content: center;
+    }
     .banner-comment-header{
         padding-left: 20px;
     }
@@ -124,6 +141,23 @@
 }
 /* Small devices (portrait phones, less than 768px) */
 @media(min-width:576px) and (max-width:767.98px){
+    .nav-link{
+        text-align: center;
+        color: black;
+        padding-top: 15px;
+    }
+    .navbar-nav{
+        padding-bottom: 20px;
+    }
+    .navbar-collapse{
+        padding-bottom: 25px;
+        background-color: whitesmoke;
+    }
+    .nav-right{
+        padding-top: 12px;
+        display: flex;
+        justify-content: center;
+    }
     .banner-right-text {
         padding: 15px 20px 15px 20px;
     }
@@ -182,6 +216,34 @@
 }
 /*XS Device */
 @media(max-width:575px){
+    .nav-link{
+        text-align: center;
+        color: black;
+        padding-top: 15px;
+    }
+    .navbar-nav{
+        padding-bottom: 20px;
+    }
+    .navbar-collapse{
+        padding-bottom: 25px;
+        background-color: whitesmoke;
+    }
+    .nav-right{
+        padding-top: 12px;
+        display: flex;
+        justify-content: center;
+    }
+    .banner-comment-box {
+        bottom: -39%;
+        left: -4%;
+    }
+    .banner-right img {
+        margin-right: -5%;
+    }
+    .pricing-main{
+        display: flex;
+        justify-content: center;
+    }
     .banner-right-text {
         padding: 20px 40px 20px 40px;
     }
@@ -195,12 +257,8 @@
         text-align: center;
         margin-bottom: 50px;
     }
-    .banner-comment-box {
-        left: -4%;
-        bottom: -22%;
-    }
     #counter{
-        margin-top: 150px;
+        margin-top: 250px;
     }
     .counter-shape{
         display: none;
@@ -289,6 +347,16 @@
         padding-top: 100px;
         padding-bottom: 80px;
         background-color: #F4F4F4;
+    }
+    .section-head-wrapper {
+        padding-bottom: 0;
+    }
+    .about-item {
+        padding: 70px 40px 71px 40px;
+    }
+    .reason-item {
+        padding: 70px 40px 71px 40px;
+        height: 405px;
     }
 }
 
