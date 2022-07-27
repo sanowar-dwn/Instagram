@@ -137,6 +137,13 @@
     .item-wrapper{
         margin-top: 20px;
     }
+    .banner-right-text {
+        padding: 22px 38px;
+    }
+    .banner-comment-box {
+        bottom: -10%;
+        left: -40%;
+    }
 
 }
 /* Small devices (portrait phones, less than 768px) */

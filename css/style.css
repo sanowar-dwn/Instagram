@@ -116,7 +116,7 @@ header{
 .banner-right::after {
     content: url('../images/banner-shape.png');
     position: absolute;
-    top: 21%;
+    top: 27%;
     right: -13%;
     z-index: -9;
 }
